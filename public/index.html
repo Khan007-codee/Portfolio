@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Farzan Khan — CS Engineer | IT Support | Data & Excel</title>
+  <meta name="description" content="Personal portfolio of Mohammed Farzan Khan — Computer Science Engineer with practical IT support, data management and Excel automation experience. Based in India." />
+  <meta name="keywords" content="Mohammed Farzan Khan, Computer Science Engineer, IT Support, Excel, Data Management, RupXPay, Web3" />
+  <meta property="og:title" content="Mohammed Farzan Khan — Portfolio" />
+  <meta property="og:description" content="CS Engineer | IT Support | Data & Excel Automation" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo-link">
+        <img src="profile.jpg" alt="Mohammed Farzan Khan" class="nav-avatar" />
+        <span class="nav-logo-text">Farzan Khan</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about"      id="nav-about">About</a></li>
+        <li><a href="#experience" id="nav-experience">Experience</a></li>
+        <li><a href="#skills"     id="nav-skills">Skills</a></li>
+        <li><a href="#projects"   id="nav-projects">Projects</a></li>
+        <li><a href="Farzan_Khan_CV.pdf" id="nav-cv" class="nav-cv-link" target="_blank" download="Farzan_Khan_CV.pdf">Resume / CV 📄</a></li>
+        <li><a href="#contact"    id="nav-contact-link" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="nav-mobile" aria-hidden="true">
+      <a href="#about"      id="mob-about">About</a>
+      <a href="#experience" id="mob-experience">Experience</a>
+      <a href="#skills"     id="mob-skills">Skills</a>
+      <a href="#projects"   id="mob-projects">Projects</a>
+      <a href="Farzan_Khan_CV.pdf" id="mob-cv" target="_blank" download="Farzan_Khan_CV.pdf">Resume / CV 📄</a>
+      <a href="#contact"    id="mob-contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" aria-label="Hero introduction">
+    <div class="hero-bg" role="presentation"></div>
+    <div class="hero-overlay" role="presentation"></div>
+    <div class="hero-content">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <div class="hero-badge-pill" id="hero-badge">
+            <span class="hero-badge-dot"></span>
+            <span>Available for Hire &amp; Opportunities</span>
+          </div>
+          <p class="hero-greeting" id="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name" id="hero-name">Mohammed Farzan Khan</h1>
+          <div class="hero-title-wrap">
+            <span class="hero-title" id="hero-title-text">Computer Science Engineer</span>
+            <span class="hero-divider" aria-hidden="true">&nbsp;·&nbsp;</span>
+            <span class="hero-subtitle" id="hero-subtitle-text">IT Support &amp; Data Automation</span>
+          </div>
+          <p class="hero-intro" id="hero-intro-text">
+            Recently graduated CS engineer with hands-on IT support and data management
+            experience in a hospital environment. I work with structured data,
+            Excel automation workflows, and enjoy building software that solves practical problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" id="hero-btn-projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="Farzan_Khan_CV.pdf" id="hero-btn-cv" class="btn btn-ghost" target="_blank" download="Farzan_Khan_CV.pdf">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" id="hero-btn-contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="hero-highlight-item">
+              <span class="hl-icon">🎓</span>
+              <span class="hl-text">B.E. Computer Science</span>
+            </div>
+            <div class="hero-highlight-item">
+              <span class="hl-icon">🏥</span>
+              <span class="hl-text">Hospital IT Experience</span>
+            </div>
+            <div class="hero-highlight-item">
+              <span class="hl-icon">📊</span>
+              <span class="hl-text">Advanced Excel &amp; Data</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="profile-glow-bg"></div>
+            <div class="profile-card">
+              <div class="profile-img-box">
+                <img src="profile.jpg" alt="Mohammed Farzan Khan" class="profile-img" id="profile-hero-img" />
+                <div class="profile-img-overlay"></div>
+              </div>
+              <div class="profile-info-strip">
+                <div class="profile-status-indicator">
+                  <span class="status-pulse-dot"></span>
+                  <span class="profile-name-tag">Farzan Khan</span>
+                </div>
+                <span class="profile-role-tag">CS Graduate / IT</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge -->
+            <div class="floating-badge badge-bottom-left">
+              <span class="f-icon">⚡</span>
+              <div>
+                <div class="f-title">Tech Support</div>
+                <div class="f-sub">Problem Solver</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-label">scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-label" aria-hidden="true">01 / About</div>
+      <h2 id="about-heading" class="section-title">A bit about me</h2>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <p>
+            I'm a Computer Science and Engineering graduate (2025) from ISL Engineering College, Hyderabad,
+            with hands-on experience supporting IT infrastructure, network connectivity, and hospital systems.
+            Currently working at <strong>Owaisi Group of Hospitals</strong>, I specialize in resolving Level-1
+            technical incidents, diagnosing LAN and IP conflicts, and keeping core hospital applications running smoothly.
+          </p>
+          <p>
+            In addition to day-to-day IT support, I maintain operational census reports, bed occupancy datasets,
+            and administrative dashboards in Microsoft Excel. I also support critical organizational systems including
+            HMIS, LIS, and Aadhaar Enabled Biometric Attendance Systems (AEBAS).
+          </p>
+          <p>
+            I hold the <strong>Juniper JNCIA-Cloud</strong> certification and completed the EduSkills Generative AI
+            Virtual Internship. With strong networking fundamentals and hands-on programming experience in Python,
+            Java, C, and Web Technologies, I am eager to transition into Network Operations Center (NOC) or core technical development roles.
+          </p>
+        </div>
+        <div class="about-cards fade-in">
+          <div class="info-card" id="about-card-edu">
+            <div class="info-card-icon" aria-hidden="true">🎓</div>
+            <div>
+              <div class="info-card-label">Education</div>
+              <div class="info-card-value">B.E. Computer Science &amp; Engineering</div>
+              <div class="info-card-sub">ISL Engineering College | CGPA: 6.82 (2025)</div>
+            </div>
+          </div>
+          <div class="info-card" id="about-card-exp">
+            <div class="info-card-icon" aria-hidden="true">🏥</div>
+            <div>
+              <div class="info-card-label">Current Role</div>
+              <div class="info-card-value">Tech Support Engineer – IT Infrastructure</div>
+              <div class="info-card-sub">Owaisi Group of Hospitals (Jul 2025 – Present)</div>
+            </div>
+          </div>
+          <div class="info-card" id="about-card-cert">
+            <div class="info-card-icon" aria-hidden="true">📜</div>
+            <div>
+              <div class="info-card-label">Certifications</div>
+              <div class="info-card-value">Juniper JNCIA-Cloud Certified</div>
+              <div class="info-card-sub">EduSkills Generative AI Virtual Internship</div>
+            </div>
+          </div>
+          <div class="info-card" id="about-card-loc">
+            <div class="info-card-icon" aria-hidden="true">📍</div>
+            <div>
+              <div class="info-card-label">Location</div>
+              <div class="info-card-value">Hyderabad, India</div>
+              <div class="info-card-sub">Open to NOC / IT / Software Roles</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section-alt" aria-labelledby="exp-heading">
+    <div class="container">
+      <div class="section-label" aria-hidden="true">02 / Experience</div>
+      <h2 id="exp-heading" class="section-title">Where I've worked</h2>
+      <div class="timeline">
+        <div class="timeline-item fade-in" id="exp-hospital">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Tech Support Engineer – IT Infrastructure</h3>
+                <p class="timeline-org">Owaisi Group of Hospitals, Hyderabad</p>
+              </div>
+              <span class="timeline-badge">Jul 2025 – Present</span>
+            </div>
+            <p class="timeline-desc">
+              Providing Level-1 technical support for critical hospital IT infrastructure, handling
+              network troubleshooting, system availability, biometric hardware, and operational data workflows.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">L1 Tech Support</span>
+              <span class="tag">LAN &amp; IP Troubleshooting</span>
+              <span class="tag">HMIS &amp; LIS Systems</span>
+              <span class="tag">AEBAS Biometrics</span>
+              <span class="tag">Census &amp; Bed Occupancy Excel</span>
+              <span class="tag">Hardware &amp; Peripherals</span>
+              <span class="tag">Vendor Escalation</span>
+            </div>
+            <div class="exp-details">
+              <h4 class="exp-details-title">Key responsibilities:</h4>
+              <ul class="exp-list">
+                <li>Provided Level-1 technical support for hospital IT infrastructure, including network-connected systems and devices.</li>
+                <li>Assisted in troubleshooting LAN connectivity issues, IP conflicts, and network access problems across departments.</li>
+                <li>Supported Hospital Management Information System (HMIS) and Laboratory Information Systems (LIS), ensuring system availability.</li>
+                <li>Monitored and maintained census reports, bed occupancy data, and operational dashboards using Excel.</li>
+                <li>Supported Aadhaar Enabled Biometric Attendance System (AEBAS), including device connectivity, enrolment, and issue resolution.</li>
+                <li>Resolved hardware, printer, scanner, and biometric device issues involving network and system dependencies.</li>
+                <li>Coordinated with senior IT staff and vendors to escalate and resolve infrastructure-related incidents.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" aria-labelledby="skills-heading">
+    <div class="container">
+      <div class="section-label" aria-hidden="true">03 / Skills</div>
+      <h2 id="skills-heading" class="section-title">What I work with</h2>
+      <div class="skills-grid">
+
+        <!-- Networking & IT Infrastructure -->
+        <div class="skill-block fade-in" id="skill-block-it">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" aria-hidden="true">🌐</span>
+            <div>
+              <h3 class="skill-block-title">Networking &amp; IT Infrastructure</h3>
+              <p class="skill-block-note">Hands-on hospital environment &amp; Juniper certified</p>
+            </div>
+          </div>
+          <div class="skill-tags-grid">
+            <span class="skill-tag skill-tag--strong">LAN Troubleshooting</span>
+            <span class="skill-tag skill-tag--strong">IP Conflict Resolution</span>
+            <span class="skill-tag skill-tag--strong">Level-1 Tech Support</span>
+            <span class="skill-tag skill-tag--strong">HMIS &amp; LIS Support</span>
+            <span class="skill-tag skill-tag--strong">AEBAS Biometrics</span>
+            <span class="skill-tag">Network Access Management</span>
+            <span class="skill-tag">System Availability</span>
+            <span class="skill-tag">Hardware, Printers &amp; Scanners</span>
+            <span class="skill-tag">Incident Escalation</span>
+            <span class="skill-tag">Vendor Coordination</span>
+          </div>
+        </div>
+
+        <!-- Excel & Databases -->
+        <div class="skill-block fade-in" id="skill-block-excel">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" aria-hidden="true">📊</span>
+            <div>
+              <h3 class="skill-block-title">Databases &amp; Excel Workflows</h3>
+              <p class="skill-block-note">Operational dashboards &amp; record management</p>
+            </div>
+          </div>
+          <div class="skill-tags-grid">
+            <span class="skill-tag skill-tag--strong">Microsoft Excel</span>
+            <span class="skill-tag skill-tag--strong">SQL</span>
+            <span class="skill-tag skill-tag--strong">Census Reports</span>
+            <span class="skill-tag skill-tag--strong">Bed Occupancy Tracking</span>
+            <span class="skill-tag skill-tag--strong">VLOOKUP &amp; Lookups</span>
+            <span class="skill-tag">Operational Dashboards</span>
+            <span class="skill-tag">Data Matching &amp; Cleaning</span>
+            <span class="skill-tag">Data Validation &amp; Mapping</span>
+            <span class="skill-tag">Attendance &amp; Bio IDs</span>
+            <span class="skill-tag">Departmental Reporting</span>
+            <span class="skill-tag">Formula Debugging</span>
+          </div>
+        </div>
+
+        <!-- Programming & Web -->
+        <div class="skill-block fade-in" id="skill-block-programming">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" aria-hidden="true">💻</span>
+            <div>
+              <h3 class="skill-block-title">Programming &amp; Web Technologies</h3>
+              <p class="skill-block-note">Foundations &amp; hands-on practical development</p>
+            </div>
+          </div>
+          <div class="prog-langs">
+            <div class="prog-lang-item" id="lang-python">
+              <span class="lang-name">Python</span>
+              <span class="lang-level">Intermediate</span>
+            </div>
+            <div class="prog-lang-item" id="lang-java">
+              <span class="lang-name">Java</span>
+              <span class="lang-level">Core Foundation</span>
+            </div>
+            <div class="prog-lang-item" id="lang-c">
+              <span class="lang-name">C</span>
+              <span class="lang-level">Core Foundation</span>
+            </div>
+          </div>
+          <div class="skill-tags-grid" style="margin-top: 1rem;">
+            <span class="skill-tag">HTML5 / CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">TypeScript</span>
+          </div>
+        </div>
+
+        <!-- Cloud, AI & Tools -->
+        <div class="skill-block fade-in" id="skill-block-project">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" aria-hidden="true">☁️</span>
+            <div>
+              <h3 class="skill-block-title">Cloud, Platforms &amp; AI Tools</h3>
+              <p class="skill-block-note">Certified &amp; project-tested modern workflows</p>
+            </div>
+          </div>
+          <div class="skill-tags-grid">
+            <span class="skill-tag skill-tag--strong">Juniper JNCIA-Cloud</span>
+            <span class="skill-tag skill-tag--strong">AWS (Basics)</span>
+            <span class="skill-tag skill-tag--strong">GitHub &amp; Git</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">ChatGPT &amp; Claude</span>
+            <span class="skill-tag">Google Gemini</span>
+            <span class="skill-tag">Zencoder</span>
+            <span class="skill-tag">Expo / React Native</span>
+            <span class="skill-tag">Web3.js &amp; Ethereum RPC</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section-alt" aria-labelledby="proj-heading">
+    <div class="container">
+      <div class="section-label" aria-hidden="true">04 / Projects</div>
+      <h2 id="proj-heading" class="section-title">Things I've built</h2>
+
+      <div class="project-card fade-in" id="project-rupxpay">
+        <div class="project-card-inner">
+          <div class="project-main">
+            <div class="project-header">
+              <div class="project-title-group">
+                <div class="project-tag-top">Academic &amp; Practical Project</div>
+                <h3 class="project-name" id="project-rupxpay-name">RupXPay</h3>
+                <p class="project-type">Crypto to INR Payment System (Android Application)</p>
+              </div>
+              <div class="project-stack-badges" aria-label="Technology stack">
+                <span class="stack-badge">Node.js</span>
+                <span class="stack-badge">Web3.js</span>
+                <span class="stack-badge">Blockchain</span>
+                <span class="stack-badge">Android / React Native</span>
+                <span class="stack-badge">TypeScript</span>
+                <span class="stack-badge">Prisma / SQLite</span>
+              </div>
+            </div>
+
+            <p class="project-desc">
+              Developed a blockchain-based cryptocurrency-to-INR payment application with secure transaction handling.
+              Gained practical exposure to backend REST APIs, Web3 wallet integration, cloud-based blockchain infrastructure,
+              and networked application security.
+            </p>
+
+            <div class="project-arch" aria-label="System architecture">
+              <span class="arch-node">Mobile App</span>
+              <span class="arch-arrow" aria-hidden="true">&#8594;</span>
+              <span class="arch-node">Backend API</span>
+              <span class="arch-arrow" aria-hidden="true">&#8594;</span>
+              <span class="arch-node">Database</span>
+              <span class="arch-arrow" aria-hidden="true">&#8594;</span>
+              <span class="arch-node">Web3 / RPC</span>
+            </div>
+
+            <div class="project-features">
+              <div class="feature-item" id="feat-wallet">
+                <div class="feature-icon" aria-hidden="true">&#128279;</div>
+                <div>
+                  <div class="feature-title">Wallet Connection</div>
+                  <div class="feature-desc">Designed to work with Web3 wallets (MetaMask, Trust Wallet) and retrieve wallet information via RPC.</div>
+                </div>
+              </div>
+              <div class="feature-item" id="feat-conversion">
+                <div class="feature-icon" aria-hidden="true">&#128177;</div>
+                <div>
+                  <div class="feature-title">Crypto-to-INR Conversion</div>
+                  <div class="feature-desc">Fetches wallet balances and processes a conversion workflow into Indian Rupee equivalent.</div>
+                </div>
+              </div>
+              <div class="feature-item" id="feat-kyc">
+                <div class="feature-icon" aria-hidden="true">&#128219;</div>
+                <div>
+                  <div class="feature-title">KYC Workflow</div>
+                  <div class="feature-desc">Conceptual identity verification flow — Aadhaar, PAN and selfie submission.</div>
+                </div>
+              </div>
+              <div class="feature-item" id="feat-upi">
+                <div class="feature-icon" aria-hidden="true">&#128242;</div>
+                <div>
+                  <div class="feature-title">UPI Payout Workflow</div>
+                  <div class="feature-desc">Designed an INR payout concept using UPI as the payout channel.</div>
+                </div>
+              </div>
+              <div class="feature-item" id="feat-admin">
+                <div class="feature-icon" aria-hidden="true">&#9881;</div>
+                <div>
+                  <div class="feature-title">Admin Panel</div>
+                  <div class="feature-desc">Administrative functionality for managing app data and internal workflows.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-note" role="note">
+              <span class="note-icon" aria-hidden="true">i</span>
+              This is a personal learning and exploration project — developed to explore Web3 wallet integration,
+              APIs, and payment workflows on Ethereum's Sepolia test network.
+            </div>
+
+            <div class="project-actions">
+              <button id="btn-case-study" class="btn btn-primary" onclick="openModal()" aria-haspopup="dialog">
+                View Case Study
+              </button>
+              <a href="https://github.com/Khan007-codee" id="btn-project-github" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+                <span>GitHub Profile</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-more fade-in" id="projects-more-section">
+        <p class="projects-more-text">
+          More projects in progress — currently building and learning.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-label" aria-hidden="true">05 / Contact</div>
+      <h2 id="contact-heading" class="section-title">Let's talk</h2>
+      <p class="contact-intro">
+        I'm open to opportunities in NOC (Network Operations), IT Support, Network Support, and Junior Software Development roles.
+        Feel free to reach out via phone, email, or LinkedIn.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-form-wrap fade-in">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name-input">Name</label>
+              <input type="text" id="contact-name-input" name="name" placeholder="Your name" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-email-input">Email</label>
+              <input type="email" id="contact-email-input" name="email" placeholder="your@email.com" autocomplete="email" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-subject-input">Subject</label>
+              <input type="text" id="contact-subject-input" name="subject" placeholder="What's this about?" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-message-input">Message</label>
+              <textarea id="contact-message-input" name="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" id="contact-submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-note" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-info fade-in">
+          <div class="contact-card" id="contact-card-phone">
+            <span class="contact-icon" aria-hidden="true">&#128222;</span>
+            <div>
+              <div class="contact-label">Phone</div>
+              <a href="tel:+917095128961" id="contact-phone-link" class="contact-value">+91 7095128961</a>
+            </div>
+          </div>
+          <div class="contact-card" id="contact-card-email">
+            <span class="contact-icon" aria-hidden="true">&#9993;</span>
+            <div>
+              <div class="contact-label">Email</div>
+              <a href="mailto:farzankhan2k01@gmail.com" id="contact-email-link" class="contact-value">farzankhan2k01@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card" id="contact-card-linkedin">
+            <span class="contact-icon" aria-hidden="true">&#128188;</span>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <a href="https://www.linkedin.com/in/mohd-farzan-khan-24on" id="contact-linkedin-link" class="contact-value" target="_blank" rel="noopener noreferrer">linkedin.com/in/mohd-farzan-khan-24on</a>
+            </div>
+          </div>
+          <div class="contact-card" id="contact-card-github">
+            <span class="contact-icon" aria-hidden="true">&#128025;</span>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <a href="https://github.com/Khan007-codee" id="contact-github-link" class="contact-value" target="_blank" rel="noopener noreferrer">github.com/Khan007-codee</a>
+            </div>
+          </div>
+          <div class="contact-card" id="contact-card-cv">
+            <span class="contact-icon" aria-hidden="true">&#128196;</span>
+            <div>
+              <div class="contact-label">Curriculum Vitae</div>
+              <a href="Farzan_Khan_CV.pdf" id="contact-cv-link" class="contact-value" target="_blank" download="Farzan_Khan_CV.pdf">Download Farzan_Khan_CV.pdf</a>
+            </div>
+          </div>
+
+          <div class="availability-badge" id="availability-badge">
+            <span class="avail-dot" aria-hidden="true"></span>
+            Open to NOC / IT / Dev Opportunities
+          </div>
+
+          <blockquote class="contact-quote">
+            "Experienced in network troubleshooting, system support, and hospital infrastructure — eager to transition into NOC and technical engineering roles."
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-name">Mohammed Farzan Khan</p>
+      <p class="footer-copy">Built by me &middot; <span id="footer-year"></span></p>
+    </div>
+  </footer>
+
+  <!-- CASE STUDY MODAL -->
+  <div id="case-study-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" id="modal-backdrop" onclick="closeModal()"></div>
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal" onclick="closeModal()">&#x2715;</button>
+      <div class="modal-content">
+        <div class="modal-eyebrow">Case Study</div>
+        <h2 id="modal-title" class="modal-title">RupXPay</h2>
+        <p class="modal-subtitle">Web3 Crypto-to-INR Mobile Application</p>
+
+        <section class="modal-section">
+          <h3>What is it?</h3>
+          <p>
+            RupXPay is a personal project I built to learn how a multi-layer
+            application works in practice. The goal was to connect a mobile frontend,
+            a backend API, a database and a Web3 blockchain service — all talking to each other.
+          </p>
+          <p>
+            The concept: a user connects their Web3 wallet (MetaMask, Trust Wallet),
+            their crypto balance is retrieved and converted to an INR equivalent,
+            they go through a KYC check, and receive an INR payout via UPI.
+          </p>
+        </section>
+
+        <section class="modal-section">
+          <h3>What I actually did</h3>
+          <ul>
+            <li>Set up a React Native / Expo mobile app from scratch</li>
+            <li>Built backend REST APIs using Node.js, Express and TypeScript</li>
+            <li>Designed the database schema and used Prisma ORM with SQLite</li>
+            <li>Integrated Web3.js and connected to Ethereum's Sepolia test network via RPC</li>
+            <li>Implemented wallet balance fetching and a crypto-to-INR conversion flow</li>
+            <li>Designed a conceptual KYC flow (Aadhaar, PAN, selfie submission)</li>
+            <li>Built a conceptual UPI payout workflow</li>
+            <li>Created an admin panel for internal data management</li>
+            <li>Debugged frontend-backend integration issues, environment configs and RPC connectivity</li>
+          </ul>
+        </section>
+
+        <section class="modal-section">
+          <h3>What I learned</h3>
+          <p>
+            Most of the technologies in this stack were new to me when I started.
+            I learned TypeScript by writing it, figured out Prisma by reading docs
+            and debugging ORM errors, and understood how blockchain RPC calls work
+            by troubleshooting them when they failed.
+          </p>
+          <p>
+            The biggest takeaway was understanding how a full-stack application
+            actually holds together — and how much can go wrong between each layer
+            when they're not aligned.
+          </p>
+        </section>
+
+        <section class="modal-section">
+          <h3>Tech Stack</h3>
+          <div class="modal-stack-grid">
+            <div class="modal-stack-col">
+              <div class="modal-stack-label">Frontend / Mobile</div>
+              <div class="modal-stack-items">
+                <span>Expo</span><span>React Native</span>
+              </div>
+            </div>
+            <div class="modal-stack-col">
+              <div class="modal-stack-label">Backend</div>
+              <div class="modal-stack-items">
+                <span>Node.js</span><span>Express.js</span><span>TypeScript</span>
+              </div>
+            </div>
+            <div class="modal-stack-col">
+              <div class="modal-stack-label">Database / ORM</div>
+              <div class="modal-stack-items">
+                <span>SQLite</span><span>Prisma</span>
+              </div>
+            </div>
+            <div class="modal-stack-col">
+              <div class="modal-stack-label">Web3</div>
+              <div class="modal-stack-items">
+                <span>Web3.js</span><span>Sepolia Testnet</span><span>RPC</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="modal-disclaimer">
+          This is a personal learning project. It is not a commercial
+          cryptocurrency exchange, regulated financial service or
+          production platform of any kind.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
